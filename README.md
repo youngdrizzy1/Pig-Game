@@ -50,16 +50,6 @@ pip install streamlit
 streamlit run app.py
 ```
 
-## Game Logic 🔧
-1. Players alternate turns rolling a single die
-2. Roll 2-6: Add to turn total, choose to roll again or hold
-3. Roll 1: Lose turn total, switch players
-4. First to 100 wins
-5. Computer AI:
-  - Rolls 1-4 times per turn
-  - Stops at 20+ points per turn
-  - Plays aggressively when close to winning
-
 ## Live Demo 🌐
 Try the live version: [Pig-Game-App](https://pig-game.streamlit.app/)
 
